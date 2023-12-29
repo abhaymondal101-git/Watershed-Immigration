@@ -1,0 +1,175 @@
+@media(max-width: 1358px) and (min-width: 1024px) {}
+
+@media(max-width: 1023px) and (min-width: 992px) {}
+
+@media(max-width: 991px) and (min-width: 768px) {}
+
+@media(max-width: 768px) {
+    .mainH {
+        display: none;
+    }
+
+    .header-topbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 0;
+        background-color: var(--top-bar);
+        color: var(--white);
+        font-family: "Raleway", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .top-social-information {
+        padding: 0 5px;
+    }
+
+    .top-contact-information {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .top-mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .top-phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .top-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .main-banner-section .carousel-item img {
+        height: auto;
+        object-fit: cover;
+        margin-top: 0;
+    }
+
+    .main-about-section {
+        background-image: url(../images/about-background-01.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 100px 0;
+    }
+
+    .about-container {
+        position: relative;
+        padding: 0 10px;
+    }
+
+    .service-container {
+        position: relative;
+        padding: 0 10px;
+    }
+
+    .service-left h2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "Raleway", Sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--top-bar);
+    }
+
+    .service-left h5 {
+        font-family: "Raleway", Sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--black);
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+        position: relative;
+        padding: 0 0 20px 0;
+    }
+
+    .social-media-card {
+        background-color: var(--top-bar);
+        border: 3px solid var(--top-bar);
+        height: 85px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        transition: all 5s ease;
+    }
+
+    .social-media-card:hover {
+        background-color: var(--top-bar);
+        border: 3px solid var(--white);
+        height: 85px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .social-media a h2 {
+        font-family: "Raleway", Sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--white);
+    }
+
+    .social-media a {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+    }
+
+    .social-media-card img {
+        height: 45%;
+        width: 50%;
+    }
+
+    .main-testimonial-section {
+        background-image: url(../images/testimonial-background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 50px 0;
+    }
+
+    .testimonial-container {
+        position: relative;
+        padding: 0 10px;
+    }
+
+    .testimonial-title h5 {
+        font-family: "Raleway", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--black);
+        text-align: center;
+    }
+}
